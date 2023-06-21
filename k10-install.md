@@ -3,6 +3,14 @@
 `helm repo add kasten https://charts.kasten.io/`
 ### Kasten-io Namespace anlegen:
 `kubectl create namespace kasten-io`
+
+### IP Adresse vom Worker Node ermitteln ###
+```
+kubectl get nodes -o wide
+```
+
+Die ingress.host Adresse setzt sich wie folgt zusammen: kasten.\<IP-addresse-workernode\>.nip.io zb kasten.10.2.2.223.nip.io
+
 ### Kasten K10 installieren:
 ```
 helm install k10 kasten/k10 --namespace=kasten-io \
