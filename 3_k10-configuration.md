@@ -1,9 +1,10 @@
 # K10 Konfiguration
 
-### Login auf K10 URL
+### Login auf K10 URL (Ingres)
 zb:
 http://kasten.10.2.200.28.nip.io/k10/#
-mit token einloggen
+Benutzername: kasten
+Kennwort: bacher
 
 ### Konfiguration Location Profile
 - Settings
