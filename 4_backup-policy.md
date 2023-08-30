@@ -10,7 +10,7 @@
 ### Backup Policy starten
 - `watch kubectl get po -A`
 - Backup Policy mit "run once" starten
-- Auf das Dashboard zurückkehren und warten Bis das Backup abgeschlossen ist
+- Auf das Dashboard zurückkehren und warten bis das Backup abgeschlossen ist
 - den watch-Befehl vom Anfang verfolgen und nach erfolgreichem Backup mit Strg+c abbrechen
 
 ### Löschen der Applikation
