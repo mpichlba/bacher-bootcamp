@@ -42,4 +42,8 @@ Token:
   - Config Data for Import: \<aus dem Notepad>
   - "Create Policy"
  
+### Import Policy starten
+- Import Policy mit "run once" starten
+- Auf das Dashboard zurückkehren und warten bis die Import und Restore Actions abgeschlossen sind
+
 
