@@ -1,4 +1,4 @@
-## Setup Location Profile
+# Setup Location Profile
 
 ### Login auf K10 URL
 zb:
