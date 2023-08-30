@@ -9,18 +9,18 @@
 ### Mit Ziel-K10-Installation verbinden
 #### Liste mit K10 Instanzen und Token
 
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
 
 ### Import Policy anlegen auf dem Ziel-Cluster
 - Dashboard -> Policies -> "Create New Policy"
-  - Name: "postgresql-import-<student-id>
+  - Name: "postgresql-import-\<Quell-Student-ID>
   - Action: "Import"
   - "Restore after Import" aktivieren
   - Import Frequency: "On Demand"
