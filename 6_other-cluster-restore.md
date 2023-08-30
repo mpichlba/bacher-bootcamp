@@ -39,7 +39,7 @@ Token:
   - Action: "Import"
   - "Restore after Import" aktivieren
   - Import Frequency: "On Demand"
-  - Config Data for Import: <aus dem Notepad>
+  - Config Data for Import: \<aus dem Notepad>
   - "Create Policy"
  
 
