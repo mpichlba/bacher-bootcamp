@@ -7,7 +7,7 @@
 - kopierten String in z.B. notepad einfügen
 
 ### Mit Ziel-K10-Installation verbinden
-#### Liste mit K10 Instanzen und Token
+#### Liste mit K10 Instanzen und Benutzername/Kennwort (kasten/bacher)
 
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
@@ -16,7 +16,7 @@ URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
-URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# \
+URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/# 
 
 ### Import Policy anlegen auf dem Ziel-Cluster
 - Dashboard -> Policies -> "Create New Policy"
