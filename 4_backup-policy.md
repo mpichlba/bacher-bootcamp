@@ -1,4 +1,4 @@
-# Backup Policies # Backup & Restore:
+# Backup Policies - Backup & Restore:
 
 ### Erstellen einer Backup Policy
 - Dashboard -> Applications
