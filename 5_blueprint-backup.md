@@ -39,7 +39,7 @@ kubectl --namespace postgresql annotate statefulset/postgres-postgresql \
 `export POSTGRES_PASSWORD=$(kubectl get secret --namespace postgresql postgres-postgresql -o jsonpath="{.data.postgres-password}" | base64 -d)`
 
 `kubectl run postgres-postgresql-client --rm --tty -i --restart='Never' --namespace postgresql --image docker.io/bitnami/postgresql:15.3.0-debian-11-r7 --env="PGPASSWORD=$POSTGRES_PASSWORD" --command -- psql --host postgres-postgresql -U postgres -d postgres -p 5432
-`\
+`
 
 output: `postgres=#`
 #### Beispieldaten anzeigen lassen (innerhalb von `postgres=#`):
