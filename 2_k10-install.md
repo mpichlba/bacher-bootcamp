@@ -20,7 +20,8 @@ helm install k10 kasten/k10 --namespace=kasten-io \
     --set ingress.create=true \
     --set ingress.class=nginx \
     --set ingress.host=<FQDN for name-based virtual host> \
-    --set auth.tokenAuth.enabled=true
+    --set auth.basicAuth.enabled=true \
+    --set auth.basicAuth.htpasswd='kasten:{SHA}ebdR3TaSMzL6cLjs+ZvB+5eKvRg='
 ```
 ### Kasten K10 Pods überprüfen
 `kubectl get pods -n kasten-io`
@@ -51,6 +52,3 @@ state-svc-7cbf9f5c9d-2kgbt               2/2     Running   0          12d
 NAMESPACE   NAME          CLASS    HOSTS                               ADDRESS          PORTS   AGE
 kasten-io   k10-ingress   nginx    <FQDN for name-based virtual host>  192.168.20.111   80      12d
 ```
-### K10 Token anzeigen für den Login:
-`sa_secret=$(kubectl get serviceaccount k10-k10 -o jsonpath="{.secrets[0].name}" --namespace kasten-io)`\
-`kubectl get secret $sa_secret --namespace kasten-io -ojsonpath="{.data.token}{'\n'}" | base64 --decode`
