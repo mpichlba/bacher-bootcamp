@@ -14,3 +14,22 @@ kubectl --namespace postgresql annotate statefulset/postgres-postgresql \
 - Policy "postgresql-backup" suchen und editieren ("edit")
 - Location profile unter "Location Profile for Kanister Actions" auswählen
 - "Edit Policy"
+
+### Backup Policy starten
+- `watch kubectl get po -A`
+- Backup Policy mit "run once" starten
+- Auf das Dashboard zurückkehren und warten Bis das Backup abgeschlossen ist
+- den watch-Befehl vom Anfang verfolgen und nach erfolgreichem Backup mit Strg+c abbrechen
+
+### Löschen der Applikation
+- `kubectl delete ns postgresql`
+
+### Wiederherhstellung der Applikation
+- `watch kubectl get po -A`
+- Dashboard -> Applications
+- "Filter by Status" -> "Removed"
+- auf "Restore" klicken
+- Restorepoint auswählen
+- "Restore" ausführen
+- Auf das Dashboard zurückkehren und warten bis der Restore abgeschlossen ist
+- den watch-Befehl vom Anfang verfolgen und nach erfolgreichem Restore mit Strg+c abbrechen
