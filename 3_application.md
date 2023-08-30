@@ -34,7 +34,7 @@ data-postgres-postgresql-0   Bound    pvc-27f78722-b2db-4cac-8254-073d417d202a  
 `export POSTGRES_PASSWORD=$(kubectl get secret --namespace postgresql postgres-postgresql -o jsonpath="{.data.postgres-password}" | base64 -d)`
 
 `kubectl run postgres-postgresql-client --rm --tty -i --restart='Never' --namespace postgresql --image docker.io/bitnami/postgresql:15.3.0-debian-11-r7 --env="PGPASSWORD=$POSTGRES_PASSWORD" --command -- psql --host postgres-postgresql -U postgres -d postgres -p 5432
-`\
+`
 
 output: `postgres=#`
 ### Beispieldaten hinzufügen (innerhalb von `postgres=#`):
