@@ -4,34 +4,19 @@
 - Dashboard -> Policies -> "postgresql-backup" Policy suchen
 - "Show import Details" anklicken
 - "Copy to Clipboard" klicken
-- kopierten String in z.B. notepad kopieren
+- kopierten String in z.B. notepad einfügen
 
 ### Mit Ziel-K10-Installation verbinden
 #### Liste mit K10 Instanzen und Token
 
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
-
 URL: http://kasten.xxx.xxx.xxx.xxx.nip.io/k10/#
-Token:
 
 ### Import Policy anlegen auf dem Ziel-Cluster
 - Dashboard -> Policies -> "Create New Policy"
