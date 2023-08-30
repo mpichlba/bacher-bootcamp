@@ -4,6 +4,9 @@
 ### Kasten-io Namespace anlegen:
 `kubectl create namespace kasten-io`
 
+### Pre-Flight-Check ausführen
+- `curl https://docs.kasten.io/tools/k10_primer.sh | bash`
+
 ### IP Adresse vom Worker Node ermitteln ###
 ```
 kubectl get nodes -o wide
