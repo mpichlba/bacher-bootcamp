@@ -9,3 +9,8 @@ kubectl --namespace kasten-io apply -f \
 kubectl --namespace postgresql annotate statefulset/postgres-postgresql \
     kanister.kasten.io/blueprint=postgres-bp
 ```
+### Anpassen der Backup Policy
+- Dashboard -> Policies
+- Policy "postgresql-backup" suchen und editieren ("edit")
+- Location profile unter "Location Profile for Kanister Actions" auswählen
+- "Edit Policy"
